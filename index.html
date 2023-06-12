@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Odin - Sign Up Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="logo">
+                <img src="images/odin-lined.png" alt="odin" class="logo-img">
+                <h1>ODIN</h1>
+            </div>
+            <p class="photo-credit">photo by <a href="#">jon doe</a> on <a href="#">unsplash</a></p>
+        </div>
+        <div class="right">
+            <div class="heading">
+                <h4>This is not real online service! You know you need something like this this in your life to help you realize your deepest dreams.</h4>
+                <h4>Sign up now to get started.</h4>
+
+                <h2>You know you want to.</h2>
+            </div>
+            
+                <form action="">
+                    <div class="form-container">
+                        <h3>Let's do this!</h3>
+                        <div class="form-inputs">
+                            <div class="form-entry">
+                                <label for="first-name">FIRST NAME</label>
+                                <input type="text" id="first-name" name="first-name" placeholder="Jon" required>
+                            </div>
+                            <div class="form-entry">
+                                <label for="last-name">LAST NAME</label>
+                                <input type="text" id="last-name" name="last-name" placeholder="Doe" required>
+                            </div>
+                            <div class="form-entry">
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" name="email" placeholder="Jon@gmail.com" required>
+                            </div>
+                            <div class="form-entry">
+                                <label for="phone">PHONE NUMBER</label>
+                                <input type="tel" id="phone" name="phone" placeholder="123-1234-4321" required>
+                            </div>
+                            <div class="form-entry">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" name="password" id="password" minlength="8" required>
+                                <div class="error-msg" id="password1-msg"></div>
+                            </div>
+                            <div class="form-entry">
+                                <label for="password-confirm">CONFIRM PASSWORD</label>
+                                <input type="password" id="password-confirm" required>
+                                <div class="error-msg" id="password2-msg"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="submit-btn">Create Account</button>
+                    
+                </form>
+                <p class="log-in-para">Already have an account? <a href="#" class="login-link">Log in</a></p>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
